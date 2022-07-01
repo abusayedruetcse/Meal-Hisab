@@ -19,7 +19,8 @@ namespace MealHisab
     public class DataMigrations : IDataMigrations
     {
         private static readonly string[] databaseKeys = new[] {
-            "Default"
+            "Default",
+            "Main"
             //<if:Northwind>
             , "Northwind"
             //</if:Northwind>
